@@ -1,0 +1,22 @@
+Class: Product, CartItem, Order, Catalog, PaymentService, etc.
+Object: new Product(), new Order()
+Constructor: Product(), Order(), CartItem()
+Properties: SKU, Name, Price, Stock, CustomerName
+Methods: AddItem(), FindBySku(), GenerateReceipt()
+Access Modifiers: Private fields, public properties/methods, internal helpers
+Static Class: MoneyHelper, TaxHelper, InputHelper
+List: Product catalog, Order items
+Dictionary<TKey,TValue>: SKU for Product lookup
+Array: Categories
+Stack: Undo last cart action
+Queue: Order and print processing for catalog
+StringBuilder: Receipt generation 
+Generics: Repository <T>
+ref: TryAdjustStock(), ReduceStock()
+out: TryParsePrice(), TryRemoveItem()
+Task: LoadAsync(), SaveAsync(), ProcessAsync()
+async/await: Payment processing, loading/saving
+using: File handling and Importing functionalities in Program.cs from Services, Helpers and Model Folder
+Newtonsoft.Json: Save/load catalog as JSON
+.NET CLI: dotnet build, dotnet run, dotnet restore
+
