@@ -211,8 +211,11 @@ while (running)
             Console.WriteLine();
             Console.WriteLine(receipt);
             
-            Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
-            File.WriteAllText("receipt.txt", receipt);
+            // Directory.SetCurrentDirectory removed per user preference
+            using (StreamWriter writer = new StreamWriter("receipt.txt"))
+{
+    writer.WriteLine(receipt);
+}
             Console.WriteLine($"Receipt saved to {Path.GetFullPath("receipt.txt")}");
             Console.WriteLine("Receipt Saved.");
             CatalogService.SaveCatalog(catalog.Products);

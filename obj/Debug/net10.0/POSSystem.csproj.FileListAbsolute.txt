@@ -15,3 +15,4 @@ C:\Users\ADMIN\source\repos\POSSystem\PosSystem\obj\Debug\net10.0\refint\POSSyst
 C:\Users\ADMIN\source\repos\POSSystem\PosSystem\obj\Debug\net10.0\POSSystem.pdb
 C:\Users\ADMIN\source\repos\POSSystem\PosSystem\obj\Debug\net10.0\POSSystem.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\POSSystem\PosSystem\obj\Debug\net10.0\ref\POSSystem.dll
+C:\Users\ADMIN\source\repos\POSSystem\POSSystem\obj\Debug\net10.0\POSSystem.sourcelink.json
