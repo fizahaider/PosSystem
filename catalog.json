@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "Milk",
+    "SKU": "1",
+    "Price": 250.0,
+    "Stock": 0,
+    "Category": "Food"
+  },
+  {
+    "Name": "Bread",
+    "SKU": "2",
+    "Price": 122.0,
+    "Stock": 10,
+    "Category": "Food]"
+  },
+  {
+    "Name": "Soap",
+    "SKU": "3",
+    "Price": 180.0,
+    "Stock": 12,
+    "Category": "Cleaning"
+  },
+  {
+    "Name": "Juice",
+    "SKU": "4",
+    "Price": 300.0,
+    "Stock": 10,
+    "Category": "Drink"
+  },
+  {
+    "Name": "Detergent",
+    "SKU": "5",
+    "Price": 300.0,
+    "Stock": 200,
+    "Category": "Cleaning"
+  },
+  {
+    "Name": "Piza",
+    "SKU": "6",
+    "Price": 240.0,
+    "Stock": 80,
+    "Category": "Food"
+  }
+]
