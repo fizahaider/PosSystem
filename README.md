@@ -17,7 +17,7 @@ Requirements
 
 Quick start (commands)
 ----------------------
-Open a terminal (PowerShell) and run the commands below from the solution folder (C:\Users\ADMIN\source\repos\POSSystem):
+Open a terminal (PowerShell) and run the commands below
 - Create the console project 
   dotnet new console -n PosSystem 
   cd PosSystem 
