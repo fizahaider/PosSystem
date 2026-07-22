@@ -43,12 +43,12 @@ When the app runs you'll see a numeric menu. Common actions:
 
 1. Show Products: lists catalog items and stock
 2. Add Product: add a new product to the catalog (SKU must be unique; adding a product with an existing SKU updates it)
-3. Add Item To Cart: add by SKU and quantity (validated against stock)
-4. Remove Item: remove a full line by SKU
-5. Undo Last Add: reverts only the quantity added by the last Add (Stack)
-6. Checkout: processes payment (simulated), reduces stock, prints receipt to console and saves receipt.txt, and saves catalog.json
-7. Save Catalog: manually persist current catalog to catalog.json
-8. Exit:  quit the app
-9. Start New Sale: begin a new order and clear undo history
+3. Start New Sale: begin a new order and clear undo history (enter customer name or leave blank for Walk-In)
+4. Add Item To Cart: add by SKU and quantity (validated against stock)
+5. Remove Item: remove a full line by SKU
+6. Undo Last Add: reverts only the quantity added by the last Add (Stack)
+7. Checkout: processes payment (simulated), reduces stock, prints receipt to console and saves receipt.txt, and saves catalog.json
+8. Save Catalog: manually persist current catalog to catalog.json
+9. Exit: quit the app
 
 ---
