@@ -1,0 +1,15 @@
+## Concepts Covered 
+- Controllers
+-  Routing
+-  REST
+-  HTTP methods
+-  HTTP status codes
+-  DTOs
+-  Model Binding
+-  Data Annotations
+-  Validation
+-  Dependency Injection
+-  Services
+-  Filters
+-  Middleware
+-  Swagger
