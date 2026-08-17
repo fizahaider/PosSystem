@@ -1,0 +1,16 @@
+## Concepts Covered 
+- Everything from Version 2
+- EF Core
+- DbContext
+- DbSet
+- SQL Server
+- Connection Strings
+- Entity Mapping
+- Primary Keys
+- Foreign Keys
+- Relationships
+- Migrations
+- Database Seeding
+- EF CRUD
+- LINQ with EF Core
+- Views
